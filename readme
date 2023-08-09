@@ -1,9 +1,9 @@
-Desafio Nginx com node
+Nginx com node
 
-Neste desafio iremos usar o nginx como proxy reverso. 
+Iremos usar o nginx como proxy reverso. 
 Quando for acessado o nginx, o mesmo fará uma chamada em uma aplicação node. Essa aplicação realizara insert em nosso banco de dados mysql.
 
-Ao acessarmos nossa aplicação o resultado deve ser: Full Cycle Rocks! -  seguido dos nomes adicionados na base de dados.
+Ao acessarmos nossa aplicação o resultado deve ser: Bem vindo! -  seguido dos nomes adicionados na base de dados.
 
 Para executar a imagem: docker-compose up -d 
 
